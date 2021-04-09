@@ -1,0 +1,21 @@
+insert into candidate
+values('PPP','arrow',1678909876549);
+
+insert into candidate
+values('PML(N)','tiger',6790753527697);
+
+insert into candidate
+values('JUI','book',6115466842383);
+
+insert into candidate
+values('PTI','bat',8795321323399);
+
+insert into candidate
+values('JI','scale',7840142156844);
+
+insert into candidate
+values('PML(F)','rose',1340562764336);
+
+insert into candidate
+values('PML(Q)','cycle',9237636289999);
+

@@ -1,0 +1,102 @@
+
+--Testing Natural Join Wokring
+select designation , Fname , lname 
+from admin natural join  person
+-- Alhamdolillah It works
+
+--Who voted when
+select *
+from voter a  join candidate c 
+on( a.vcnic=c.ccnic );
+
+-Total Number of people to exist as voters
+select count(fname) as Total_voters
+from person;
+
+--Major Voting report
+select candcnic ,count(votercnic) as Votes 
+from voting_procedure
+group by candcnic;
+
+--Checks referential inegrity and security of data
+select * from
+voter v join voting_procedure vp
+on (v.vcnic=vp.votercnic);
+
+--Lazy people who dont fullfill their inherent right to vote :/
+select * from 
+person 
+where cnic = ( select vcnic 
+            from voter
+            where votetimestamp is NULL);
+
+--Lazy people checked with joins
+select * from 
+person p join voter v
+on (v.vcnic=p.cnic)
+where votetimestamp is Null
+
+--Vote per Person
+select  count(votercnic) as "vote per person"
+from voting_procedure
+group by votercnic;
+
+--People who vote twice checking Dhandhli
+select  count(votercnic) as "vote per person"
+from voting_procedure
+group by votercnic
+having count(votercnic) >1;
+
+---Number of vots in each Area(constituency)
+select count(cnic) as "Number of Voters" , areacode as "NA"
+from person
+group by areacode;
+
+--numbe of max votes
+select max(v.votes)
+from(
+
+select count(votercnic) as votes,candcnic as c
+from voting_procedure
+group by candcnic) v;
+
+--nikal bhai cnic president ka --winnerperson as view
+select candcnic from(
+select candcnic,count(votercnic) as a
+from voting_procedure
+group by candcnic)
+where a=(
+select max(a)
+from (
+select candcnic,count(votercnic) as a
+from voting_procedure
+group by candcnic));
+
+
+
+
+
+
+--ajeeb/fii
+select affiliation,symbol,ccnic
+from candidate
+where ccnic in
+(select candcnic from
+(select candcnic,count(votercnic) as a
+from voting_procedure
+group by candcnic)
+where a=(
+select max(a)
+from (
+select candcnic,count(votercnic) as a
+from voting_procedure
+group by candcnic)));
+
+
+
+Views:
+TotesVoter
+VotesPerPerson
+WinnerPerson
+
+

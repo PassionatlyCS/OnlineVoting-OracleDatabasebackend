@@ -1,0 +1,102 @@
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1340562312549,'Usman','Ali','H18-St5-I-8',TO_DATE('24/09/1965','dd/mm/yyyy'),'13405Usman','Ali549','M',2001,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1340562896486,'Amna','Ali','H16-ST4-I-6',TO_DATE('22/08/1988','dd/mm/yyyy'),'13405Amna','Ali486','F',2001,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1678909876549,'Haider','Khan','H-4-St1-G-11',TO_DATE('13/02/1087','dd/mm/yyyy'),'16789Haider','Khan549','M',2002,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1312345678900,'Fatima','Naveed','H-18-St-12-H-8',TO_DATE('16/06/1978','dd/mm/yyyy'),'13123Fatima','Naveed900','F',2005,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1898989898989,'Ali','Karam','H-89-St-9-D-17',TO_DATE('12/02/1990','dd/mm/yyyy'),'18989Ali','Karam989','M',2008,1003);
+
+
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1897657890787,'Haris','Khalid','H-439-St-40-I-8',TO_DATE('20/02/1998','dd/mm/yyyy'),'18976Haris','Khalid787','M',2012,1004);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(0976490875422,'Asma','Hassan','H-98-St-98-G-13',TO_DATE('01/02/1988','dd/mm/yyyy'),'09764Asma','Hassan422','F',2012,1004);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(8798644378976,'Fateen','Bibi','H-98-St6-H-9',TO_DATE('05/09/1987','dd/mm/yyyy'),'87986Fateen','Bibi978','F',2006,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1679732609457,'Aqib','Khan','H-9-St-9-I-9',TO_DATE('07/09/1989','dd/mm/yyyy'),'16797Aqib','Khan457','M',2008,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(6790753527697,'Fatir','Ullah','H-10-St-6-H-9',TO_DATE('16/10/1988','dd/mm/yyyy'),'67907Fatir','Ullah697','M',2007,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(7897532168900,'Rahima','Khan','H-5-St-5-G-11',TO_DATE('23/11/1967','dd/mm/yyyy'),'78975Rahima','Khan900','F',2009,1003);
+
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(7564668098754,'Mahnoor','Khan','H-6-St-1-H-12',TO_DATE('12/09/1978','dd/mm/yyyy'),'75646Mahnoor','Khan754','F',2010,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1340562389769,'Ali','Hasnain','H-78-St-9-G15',TO_DATE('12/08/1989','dd/mm/yyyy'),'13405Ali','Hasnain769','M',2006,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1789653467890,'Afifa','Alamdar','H-98-St-87-E-11',TO_DATE('14/07/1998','dd/mm/yyyy'),'17896Afifa','Alamdar890','F',2011,1004);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(4297152311648,'Simra','Hope','H-345-St-12-I-8',TO_DATE('10/12/1991','dd/mm/yyyy'),'42971Simra','Hope648','F',2002,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(6110126487522,'Eileen','Hash','H-654-St-5-I-9',TO_DATE('30/11/1993','dd/mm/yyyy'),'61101Eileen','Hash522','F',2005,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(7840142156844,'Alex','Jonny','H-343-St-16-F-10',TO_DATE('28/09/1996','dd/mm/yyyy'),'78401Alex','Jonny844','F',2002,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(6850145413219,'Kevin','Oman','H-878-St-65-I-10',TO_DATE('16/04/1984','dd/mm/yyyy'),'68501Kevin','Oman219','M',2006,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(6115466842383,'Harris','Ham','H-105-St-95-I-8',TO_DATE('11/05/1956','dd/mm/yyyy'),'61154Harris','Ham383','M',2008,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1268462364866,'Sam','Hardy','H-785-St-48-I-10',TO_DATE('09/06/1975','dd/mm/yyyy'),'12684Sam','Hardy866','F',2005,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(8461354894646,'Emma','Stone','H-282-St-3-H-8',TO_DATE('03/07/1998','dd/mm/yyyy'),'84613Emma','Stone646','F',2007,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(2486318453265,'Dave','Bon','H-276-St-75-G-7',TO_DATE('26/08/1984','dd/mm/yyyy'),'24863Dave','Bon265','M',2010,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(2156843568947,'John','James','H-723-St-37-G-6',TO_DATE('19/01/1994','dd/mm/yyyy'),'21568John','James947','M',2009,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(8795321323399,'Jim','Hopper','H-982-St-1-F-11',TO_DATE('15/06/1993','dd/mm/yyyy'),'87953Jim','Hopper399','M',2011,1004);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(6110192866444,'Salehah','Arjumand','H-527-St-4-G-11',TO_DATE('10/02/1999','dd/mm/yyyy'),'61101Salehah','Arj444','F',2011,1004);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1340628373229,'Hamid','Rao','H-6;St-98-H-9',TO_DATE('12/08.1987','dd/mm/yyyy'),'13406Hamid','Rao229','M',2011,1004);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(3762537393006,'Fatima','Javed','H-9-St-6-F-7',TO_DATE('10/04/1978','dd/mm/yyyy'),'37625Fatima','Javed006','F',2010,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(8734764929200,'Iqra','Fatima','H-89-St-98-G-9',TO_DATE('12/09/1989','dd/mm/yyyy'),'87347Iqra','Fatima200','F',2009,1003);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1340562764336,'Aliza','Gul','H-7-St-09-D-17',TO_DATE('1/12/1999','dd/mm/yyyy'),'13405Aliza','Gul336','F',2002,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(1340561635371,'Kaleem','Ullah','H-89-St-5-E-9',TO_DATE('23/03/1980','dd/mm/yyyy'),'13405Kaleem','Ullah371','M',2001,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(0976544679949,'Fakhir','Khan','H-98-St-7-G-8',TO_DATE('22/04/1990','dd/mm/yyyy'),'09765Fakhir','Khan949','M',2003,1001);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(9735356282117,'Rehan','Imran','H-09-St-5-D-9',TO_DATE('21/06/1989','dd/mm/yyyy'),'97353Rehan','Imran117','M',2005,1002);
+
+Insert into Person (cnic,Fname,Lname,Address,DOB,Username,Pass,Gender,AreaCode,ProvincialCode)values
+(9237636289999,'Imran','Ali','H-89-St-4-D-12',TO_DATE('24/03/1989','dd/mm/yyyy'),'92376Imran','Ali999','M',2006,1002);
+

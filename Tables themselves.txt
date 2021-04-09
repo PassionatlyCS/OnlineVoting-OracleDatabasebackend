@@ -1,0 +1,56 @@
+CREATE TABLE person
+  (
+    cnic NUMBER (13) NOT NULL,
+    FName VARCHAR2(10),
+    LName VARCHAR2( 20 ),
+    Address VARCHAR2( 256 ),
+    DOB Date,
+    Username VARCHAR2(25),
+    Pass VARCHAR2(10),
+    Gender Char(1),
+    AreaCode VARCHAR2(4),
+    ProvincialCode VARCHAR2(4),
+    PRIMARY KEY(cnic)
+  );
+
+CREATE TABLE admin
+  (
+    Designation VARCHAR2(30),
+    Acnic NUMBER(13) NOT NULL,
+    PRIMARY KEY(Acnic),
+    FOREIGN KEY (Acnic)    REFERENCES person(cnic)
+    ON DELETE CASCADE
+  );
+  
+CREATE TABLE voting_procedure
+  (
+    AdminCnic number(13),
+    VoteTimeStamp DATE,
+    VoterCnic NUMBER(13) NOT NULL,
+    PRIMARY KEY(VoterCnic),
+    FOREIGN KEY (VoterCnic) REFERENCES voter(Vcnic)
+    ON DELETE CASCADE,
+    FOREIGN KEY (Admincnic) REFERENCES admin(Acnic)
+    ON DELETE CASCADE
+
+  );
+
+  CREATE TABLE candidate
+  (
+    Affiliation VARCHAR2(25),
+    Symbol VARCHAR2(10),
+    Ccnic NUMBER(13) NOT NULL,
+    PRIMARY KEY (Ccnic),
+    FOREIGN KEY (Ccnic) REFERENCES person(cnic)
+    ON DELETE CASCADE
+  );
+
+CREATE TABLE voter
+  (
+    VoteTimeStamp DATE,
+    Vcnic NUMBER(13) NOT NULL,
+    PRIMARY KEY(Vcnic),
+    FOREIGN KEY (Vcnic) REFERENCES person(cnic)
+    ON DELETE CASCADE
+  );
+  

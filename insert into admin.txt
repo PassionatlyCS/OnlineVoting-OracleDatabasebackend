@@ -1,0 +1,14 @@
+insert into admin
+values('a',4297152311648);
+
+insert into admin
+values('b',1340562312549);
+
+insert into admin
+values('c',1897657890787);
+
+insert into admin
+values('d',1789653467890);
+
+insert into admin
+values('e',6110192866444);

@@ -1,0 +1,53 @@
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',1340562312549);
+
+insert into voting_procedure
+values(1340562312549,'10-FEB-2019',1340562896486);
+
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',1678909876549);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',1312345678900);
+
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',1898989898989);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',1897657890787);
+
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',8798644378976);
+
+insert into voting_procedure
+values(1340562312549,'10-FEB-2019',1679732609457);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',6790753527697);
+
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',7564668098754);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',6850145413219);
+
+insert into voting_procedure
+values(1340562312549,'10-FEB-2019',1268462364866);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',2156843568947);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',6110192866444);
+
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',6110126487522);
+
+insert into voting_procedure
+values(1340562312549,'10-FEB-2019',3762537393006);
+
+insert into voting_procedure
+values(4297152311648,'10-FEB-2019',9237636289999);
+
+insert into voting_procedure
+values(1789653467890,'10-FEB-2019',1340562389769);
